@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+.env
+
+
+*.pem
+*.key
+.env.*
+!.env.example
+*.zip
